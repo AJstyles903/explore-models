@@ -1,0 +1,98 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual Environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# Data files (IMPORTANT)
+# ===============================
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ===============================
+# Model files
+# ===============================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+models/
+checkpoints/
+
+# ===============================
+# Logs & Outputs
+# ===============================
+logs/
+*.log
+outputs/
+results/
+reports/
+
+# ===============================
+# Experiment tracking
+# ===============================
+mlruns/
+wandb/
+tensorboard/
+runs/
+
+# ===============================
+# Cache & temp
+# ===============================
+.cache/
+.pytest_cache/
+.mypy_cache/
+*.tmp
+*.temp
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Secrets
+# ===============================
+.env
+.env.*
+*.key
+*.pem
+
+data/*
+!data/sample.csv
