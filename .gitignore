@@ -96,3 +96,5 @@ Thumbs.db
 
 data/*
 !data/sample.csv
+
+sample*
